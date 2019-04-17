@@ -17,6 +17,16 @@ docker build oracle-11g-ee-base -t howarddeiner/oracle-11g-ee-base
 docker build . -t howarddeiner/oracle-11g-ee
 ````
 
+When the scripts are complete, you should be able to look at docker images:
+```bash
+docker-oracle-11g-ee howarddeiner$ docker images
+```
+and see
+```bash
+REPOSITORY                        TAG                 IMAGE ID            CREATED             SIZE
+howarddeiner/oracle-11g-ee        latest              14c2d9ab670f        15 minutes ago      7.5GB
+howarddeiner/oracle-11g-ee-base   latest              5b01f1be2489        18 minutes ago      7.5GB
+```
 ### Installation
 
 ```bash
